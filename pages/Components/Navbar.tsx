@@ -1,9 +1,9 @@
-import { Box, Button, ChakraProvider, Img } from "@chakra-ui/react";
+import { Box, Button, Img } from "@chakra-ui/react";
 import Link from "next/link";
 const Navbar = () => {
 
     return(
-        <ChakraProvider>
+            <>
             <Box>
             <Img  src='/Images/danlogo.png' alt='logo' width={'223px'} height={'86px'} position={'absolute'} alignItems={'flex-start'}/>
             </Box>
@@ -16,7 +16,7 @@ const Navbar = () => {
             <Box >
              <Button width={'240px'} height={'50px'} colorScheme={'orange'} border-radius={'15px'} position={'absolute'} right={'70px'}>Add Lesson Plan</Button> 
             </Box>
-        </ChakraProvider>
+             </>
     )
 }
 
