@@ -49,15 +49,15 @@ export default function Lessons ({test}:LessonsData){
         <div>
             <Navbar />
         </div>
-        <Box>
+        {/* <Box>
             <SearchBox onSearch={handleSearch}/>
-        </Box>
+        </Box> */}
        
         <Box position={'absolute'} left={'500px'} marginTop={'300px'}>
             
                <ul>    
                  {test.map((item:Lesson ) =>( 
-                   <Box borderRadius={'20px'} marginBottom={'20px'} borderStyle={'groove'} alignItems={'center'} width={'550px'} height={'150px'} border={'solid'} backgroundColor={'#FFFFFF'}> 
+                   <Box borderRadius={'25px'} marginBottom={'20px'}  alignItems={'center'} width={'550px'} height={'150px'} boxShadow='inner' p='6' rounded='md' bg='white'> 
                    
                   <Link href={'/LessonComp/' + item.id} key={item.id}><a><h6>Lesson Plan:{item.attributes.lessonName}</h6>
                   <p>{item.attributes.lessonDescription}</p></a></Link>   
