@@ -11,6 +11,8 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![lessons](https://user-images.githubusercontent.com/109544433/198936317-bb34af88-04d6-422d-b712-f3ee14a24d5a.png)
+
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
@@ -19,6 +21,7 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
+
 
 To learn more about Next.js, take a look at the following resources:
 
